@@ -1,0 +1,43 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
+}
+
+
+body{
+
+    font-family: 'Aleo', serif;
+    background-color: black;
+}
+
+.panel{
+    height: 1000px;
+    
+    background-image: url('/img/bg.jpg');
+    overflow: hidden;
+
+    .menu-box{
+
+        font-size: 2.4rem;
+        padding-left: 5%;
+        
+        .menu-item{
+
+            border: white solid 1.5px;
+
+        }
+
+
+        a{
+            color: white;
+            text-decoration: none;
+            padding: 10px;
+        }
+
+    }
+
+
+
+}
