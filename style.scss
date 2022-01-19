@@ -14,29 +14,64 @@ body{
 
 .panel{
     height: 1000px;
-    
     background-image: url('/img/bg.jpg');
     overflow: hidden;
 
-    .menu-box{
+    &-left{
 
-        font-size: 2.4rem;
-        padding-left: 5%;
+        background-color:rgba(36, 34, 34, 0.767);
+
+        .menu-box{
         
-        .menu-item{
 
-            border: white solid 1.5px;
-
+        
+            .menu-item{
+    
+                border: white solid 1.5px;
+                border-radius: 10px;
+                transition: 1s;
+                font-size: 2rem;
+    
+                &:hover{
+                    background-color:transparent;
+                    background-image: linear-gradient(160deg, rgba(0, 110, 255, .25) 0%, rgba(9, 255, 0, 0.25) 100%);
+                }
+            }
+    
+    
+            a{
+                color: white;
+                text-decoration: none;
+                padding: 10px;
+            }
+    
         }
 
 
-        a{
-            color: white;
-            text-decoration: none;
-            padding: 10px;
+
+    }
+
+
+    &-right{
+        font-family: 'Orbitron', sans-serif;
+
+        h3{
+            font-weight: bold;
+        }
+
+        p{
+            font-size: 3.5rem;
+            text-align: center;
+        }
+
+        .btn{
+            font-size: 1.8rem;
         }
 
     }
+
+
+
 
 
 
